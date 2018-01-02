@@ -3,3 +3,6 @@ zuul:
   prefix:  /api
   routes:
     about-service: /info/**
+  debug:
+    request: true
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
