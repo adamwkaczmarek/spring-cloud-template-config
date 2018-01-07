@@ -1,3 +1,6 @@
 security.oauth2.resource.filter-order: 3
 server.contextPath:   /auth
 security.signing-key: 345345fsdfsf5345
+security.jwt.client-id: springcloudtemp
+security.jwt.client-secret: sct_secret
+
