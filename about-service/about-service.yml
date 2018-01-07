@@ -1,4 +1,4 @@
 example.property: "I AM THE DEFAULT FROM GIT SERVER"
 security.oauth2.resource.filter-order: 3
-signing.key: 345345fsdfsf5345
+security.signing-key: 345345fsdfsf5345
 
