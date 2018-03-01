@@ -8,4 +8,4 @@ zuul:
     device-data-service: /device-data/** 
   debug:
     request: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
