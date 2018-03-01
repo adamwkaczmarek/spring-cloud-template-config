@@ -1,0 +1,16 @@
+security.oauth2.resource.filter-order: 3
+server.contextPath:   /auth
+security.signing-key: 345345fsdfsf5345
+security.jwt.client-id: springcloudtemp
+security.jwt.client-secret: sct_secret
+
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://aws-dev.cdivxpcgyaww.eu-central-1.rds.amazonaws.com:5432/aws_dev_db"
+spring.datasource.username: "adamw"
+spring.datasource.password: "{cipher}2564bb0dd6004b829eeb6b077aafd44305e8a8d46c13b45c58e046a1d6245d5c"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
