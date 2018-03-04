@@ -5,7 +5,8 @@ zuul:
     device-controller-service: /device-ctrl/**
     device-registration-service: /device-reg/**
     device-state-service: /device-state/**  
-    device-data-service: /device-data/** 
+    device-data-service: /device-data/**
+    authentication-service: /auth/**
   debug:
     request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
