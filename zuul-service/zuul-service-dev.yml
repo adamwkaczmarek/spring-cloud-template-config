@@ -1,1 +1,12 @@
-example.property: "I AM A DEV PROPERTY OVERRIDE"
+zuul:
+  ignored-services: '*'
+  prefix:  /api
+  routes:
+    device-controller-service: /device-ctrl/**
+    device-registration-service: /device-reg/**
+    device-state-service: /device-state/**  
+    device-data-service: /device-data/**
+    authentication-service: /auth/**
+  debug:
+    request: true
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
