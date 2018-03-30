@@ -1,1 +1,16 @@
-example.property: "I AM A DEV PROPERTY OVERRIDE"
+security.oauth2.resource.filter-order: 3
+server.contextPath:   /auth
+security.signing-key: 345345fsdfsf5345
+security.jwt.client-id: springcloudtemp
+security.jwt.client-secret: sct_secret
+
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://172.17.0.2:5432/postgres"
+spring.datasource.username: "postgres"
+spring.datasource.password: "mysecretpassword"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
