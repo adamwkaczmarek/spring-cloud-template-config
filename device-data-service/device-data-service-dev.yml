@@ -18,7 +18,7 @@ spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 
 
-spring.cloud.stream.kafka.binder.brokers: localhost:9092
+spring.cloud.stream.kafka.binder.brokers: kafkaserver:9092
 spring.cloud.stream.bindings.device-data-update-out.destination: device-data-update
 spring.cloud.stream.bindings.device-data-update-out.contentType: application/json
 
