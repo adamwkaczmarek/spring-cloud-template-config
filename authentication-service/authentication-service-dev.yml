@@ -1,3 +1,10 @@
+#Setting the logging levels for the service
+logging:
+  level:
+    com.netflix: ERROR
+    org.springframework.web: ERROR
+    home.sample: DEBUG
+
 security.oauth2.resource.filter-order: 3
 server.contextPath:   /auth
 security.signing-key: 345345fsdfsf5345
