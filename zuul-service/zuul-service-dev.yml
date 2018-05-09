@@ -3,7 +3,7 @@ logging:
     level:
       com.netflix: ERROR
       org.springframework: ERROR
-      com.thoughtmechanix: DEBUG
+      com.thoughtmechanix: ERROR
 
 zuul:
   ignored-services: '*'
