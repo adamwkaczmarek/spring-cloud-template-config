@@ -1,3 +1,10 @@
+  #Setting logging levels
+logging:
+    level:
+      com.netflix: ERROR
+      org.springframework.web: ERROR
+      com.thoughtmechanix: DEBUG
+
 zuul:
   ignored-services: '*'
   prefix:  /api
