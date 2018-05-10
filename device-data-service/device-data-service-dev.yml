@@ -4,7 +4,7 @@ logging:
     com.netflix: ERROR
     org.springframework: ERROR
     org.apache: ERROR
-    com.amazonaws:ERROR
+    com.amazonaws: ERROR
     home.samples: INFO
 
 security.oauth2.resource.filter-order: 3
